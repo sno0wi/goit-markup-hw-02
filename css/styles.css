@@ -1,0 +1,66 @@
+:root {
+    --iris: #4D5AE5;
+    --white: #fff;
+    --ocean: #404BBF;
+    --navyblue: #2E2F42;
+    --slate: #434455;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.button {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: var(--iris);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white);
+    border: none;
+}
+
+.button:hover {
+    background-color: var(--ocean);
+}
+
+.navigation {
+    list-style: none;
+}
+
+.nav-link {
+    color: var(--navyblue);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.nav-link:hover {
+    color: var(--ocean);
+}
+
+.contacts-list {
+    list-style: none;
+}
+
+.contacts {
+    text-decoration: none;
+    color: var(--slate);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+
+.contacts:hover {
+    color: var(--ocean);
+}
