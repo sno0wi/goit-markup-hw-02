@@ -16,7 +16,7 @@ body {
 
 /* header */
 
-.nav-logo {
+.nav-item-logo {
     color: var(--iris);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -50,6 +50,10 @@ body {
 
 .nav-item-link:hover {
     color: var(--ocean);
+}
+
+.contacts-item {
+    font-style: normal;
 }
 
 .contacts-item {
