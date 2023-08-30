@@ -16,7 +16,7 @@ body {
 
 /* header */
 
-.nav-item-logo {
+.nav-logo {
     color: var(--iris);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
@@ -27,7 +27,7 @@ body {
     text-transform: uppercase;
 }
 
-.span {
+.span-header {
     color: var(--navyblue);
 }
 
@@ -52,7 +52,7 @@ body {
     color: var(--ocean);
 }
 
-.contacts-item {
+.contacts {
     font-style: normal;
 }
 
@@ -87,6 +87,7 @@ body {
     color: var(--white);
     line-height: 1.07;
     letter-spacing: 1.12px;
+    text-align: center;
 }
 
 .main-button {
@@ -99,6 +100,10 @@ body {
 }
 
 .main-button:hover {
+    background-color: var(--ocean);
+}
+
+.main-button:focus {
     background-color: var(--ocean);
 }
 
@@ -134,6 +139,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .team-item {
@@ -166,6 +172,7 @@ body {
     line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .portfolio-item {
@@ -193,7 +200,7 @@ body {
 }
 
 .footer-logo {
-    color: var(--cloud);
+    color: var(--iris);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -201,7 +208,10 @@ body {
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+}
 
+.span-footer {
+    color: var(--cloud);
 }
 
 .footer-text {
