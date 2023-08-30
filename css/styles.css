@@ -22,13 +22,9 @@ body {
     color: var(--navyblue);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-}
-
-.nav-logo span {
-    color: var(--iris);
 }
 
 .nav-item {
@@ -52,11 +48,11 @@ body {
     color: var(--ocean);
 }
 
-.contacts-item {
+address ul {
     list-style: none;
 }
 
-.contacts-item-link {
+address a {
     text-decoration: none;
     color: var(--slate);
     font-size: 16px;
@@ -65,7 +61,7 @@ body {
     letter-spacing: 0.32px;
 }
 
-.contacts-item-link:hover {
+address a:hover {
     color: var(--ocean);
 }
 
@@ -137,6 +133,10 @@ body {
     list-style: none;
 }
 
+.team-item-list {
+    background-color: var(--white);
+}
+
 .team-item-title {
     font-size: 20px;
     font-weight: 500;
@@ -191,14 +191,10 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
 
-}
-
-.footer-logo span {
-    color: var(--iris);
 }
 
 .footer-text {
