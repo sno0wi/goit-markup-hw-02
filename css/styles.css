@@ -13,6 +13,8 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--slate);
     background-color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0.02em;
 }
 
 ul {
@@ -49,7 +51,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -59,10 +61,9 @@ a {
 
 .nav-item-link {
     color: var(--navyblue);
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.02em; */
 }
 
 .nav-item-link:focus {
@@ -79,9 +80,8 @@ a {
 
 .contacts-item-link {
     color: var(--slate);
-    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.02em; */
 }
 
 .contacts-item-link:hover {
@@ -102,7 +102,7 @@ a {
     font-size: 56px;
     color: var(--white);
     line-height: 1.07;
-    letter-spacing: 1.12px;
+    /* letter-spacing: 0.02em; */
     text-align: center;
 }
 
@@ -112,7 +112,7 @@ a {
     cursor: pointer;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04em;
 }
 
 .main-button:hover {
@@ -129,14 +129,14 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    /* letter-spacing: 0.02em; */
     color: var(--navyblue);
 }
 
 .value-item-text {
     color: var(--slate);
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.02em; */
 }
 
 /* Section-3 */
@@ -149,7 +149,7 @@ a {
     font-size: 36px;
     color: var(--navyblue);
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    /* letter-spacing: 0.02em; */
     text-transform: capitalize;
     text-align: center;
 }
@@ -162,13 +162,13 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    /* letter-spacing: 0.02em; */
     color: var(--navyblue);
 }
 
 .team-item-text {
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.02em; */
     color: var(--slate);
 }
 
@@ -178,7 +178,7 @@ a {
     font-size: 36px;
     color: var(--navyblue);
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    /* letter-spacing: 0.02em; */
     text-transform: capitalize;
     text-align: center;
 }
@@ -188,13 +188,13 @@ a {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;
+    /* letter-spacing: 0.02em; */
     color: var(--navyblue);
 }
 
 .portfolio-item-text {
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.02em; */
     color: var(--slate);
 }
 
@@ -210,7 +210,7 @@ a {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
@@ -221,5 +221,5 @@ a {
 .footer-text {
     color: var(--cloud);
     line-height: 1.5;
-    letter-spacing: 0.32px;
+    /* letter-spacing: 0.02em; */
 }
