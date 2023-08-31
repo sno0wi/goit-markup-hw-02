@@ -78,7 +78,6 @@ a {
 }
 
 .contacts-item-link {
-    color: var(--slate);
     line-height: 1.5;
 }
 
@@ -130,7 +129,6 @@ a {
 }
 
 .value-item-text {
-    color: var(--slate);
     line-height: 1.5;
 }
 
@@ -161,7 +159,6 @@ a {
 
 .team-item-text {
     line-height: 1.5;
-    color: var(--slate);
 }
 
 /* Section-4 */
@@ -184,7 +181,6 @@ a {
 
 .portfolio-item-text {
     line-height: 1.5;
-    color: var(--slate);
 }
 
 /* Footer */
